@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { usePaged } from '../api.js';
 import Pagination from '../components/Pagination.jsx';
 
-// Uses GET /users/interests/grouped  (single aggregate() call on the backend)
+// Uses GET /users/interests/grouped  (single aggregate() call
 export default function InterestGroups() {
   const [input, setInput] = useState('');
   const [interest, setInterest] = useState('');
